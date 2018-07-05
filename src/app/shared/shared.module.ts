@@ -10,7 +10,9 @@ import { HeaderFooterComponent } from './header-footer/header-footer.component';
     HttpClientModule
   ],
   exports: [
-    CommonModule
+    CommonModule,
+    HeaderFooterComponent
+
   ],
   declarations: [HeaderFooterComponent],
   providers: [GlobalService]
