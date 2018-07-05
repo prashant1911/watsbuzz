@@ -1,16 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="body" style="text-align:center">
-    <h1>
-      Welcome to {{title}} !!
-    </h1>
+  <h1>
+    Welcome to {{title}} !!
+  </h1>
+</div>
+<div class="wrapper">
+  <div>
+    <img class="image-style" src="..\assets\images\497705278.jpg">
   </div>
-  <div class="wrapper">
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquam sit tenetur optio dolores amet, cum, odit beatae commodi aut nobis labore voluptas quod. Magni et non debitis numquam laudantium facere repudiandae corporis tenetur. Nulla in nisi voluptates enim accusantium recusandae, est tempora minus reprehenderit rerum ut. Ea facere itaque rem! Qui alias ratione repellat, adipisci provident debitis! Dolorem doloribus debitis, provident perspiciatis laborum expedita. Rem consequatur praesentium nihil quo maiores optio. Recusandae ipsam soluta reiciendis laboriosam sunt magni hic!
-    </div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, qui iste assumenda voluptatem corrupti labore expedita quos impedit minima voluptatibus, earum nam laborum commodi dignissimos vel aperiam! Amet, ipsum officiis?
-    </div>
-    <div>
-      <img class="image-style" src="..\assets\images\how-to-draw-a-cartoon-panda-featured-image.png">
-    </div>
+  <div *ngFor="let desc of description">
+    <!--  {{header}} <br>  -->
+    {{desc}}
+
   </div>
+</div>

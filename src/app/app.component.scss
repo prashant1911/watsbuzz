@@ -7,7 +7,7 @@
   grid-template-columns:3fr 2fr;
   grid-column-gap: 1em;
   grid-gap: 1em;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(50px, auto);
 }
 
 .wrapper > div {
@@ -20,7 +20,7 @@
 }
 
 .image-style{
-  width: 100%;
+  width: 50%;
   background-size: cover;
 
 }
