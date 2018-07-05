@@ -1,5 +1,7 @@
 import { GlobalService } from './shared/services/global.service';
 import { Component } from '@angular/core';
+import {Router} from '@angular/router'
+
 
 @Component({
   selector: 'app-root',
