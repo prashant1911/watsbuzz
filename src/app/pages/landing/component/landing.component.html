@@ -2,13 +2,23 @@
   <h1>
     Welcome to {{title}} !!
   </h1>
-  <div class="wrapper">
-    <div *ngFor="let item of arr"> 
-      <span class="title">{{item.title}}</span>
-      <br>
-      {{item.description}} <br>
-      <img class="news-image" src={{item.urlToImage}}>
+  <div class="container fluid">
+    <div >
+      <section *ngFor="let item of arr" class="row my-content">
+
+          <div class="col-sm-0 col-md-2 col-lg-1"></div>
+          <div class="col-sm-12 col-md-8 col-lg-10">
+            <span class="title">{{item.title}}</span>
+            <br>
+            <span style="text-align: center"> {{item.description}}</span>
+            <br>
+            <span> <img class="news-image" src={{item.urlToImage}}></span>
+            <br>
+            <br>
+          </div>
+          <div class="col-sm-0 col-md-2 col-lg-1"></div>
+
+      </section>
     </div>
   </div>
 </div>
-

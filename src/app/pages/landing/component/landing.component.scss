@@ -3,31 +3,17 @@
 
   }
 
-  .wrapper{
-    display: grid;
-    grid-template-columns:3fr 3fr 3fr;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    grid-gap: 1em;
-    grid-auto-rows: minmax(auto, auto);
-  }
-
-  .wrapper > div {
-    background: #eee;
-    padding: 1em;
-  }
-
-  .wrapper > div:nth-child(even){
-    background: #ddd;
-  }
+  // .my-content :nth-child(){
+  //   background: #ddd;
+  // }
 
   .title {
-    font-weight: 600;
+    font-weight: 700;
 
   }
   .news-image {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 600px;
+    max-width: 600px;
     padding-top: 20px;
 
   }
