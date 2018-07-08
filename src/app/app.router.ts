@@ -2,8 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HeaderFooterComponent } from './shared/header-footer/header-footer.component';
 import { NgModule } from '@angular/core';
 
-
-export const router: Routes = [
+export const routers: Routes = [
   {
     path: '',
     redirectTo: '/landing',
@@ -18,4 +17,4 @@ export const router: Routes = [
 
 ]
 
-export const appRouter = RouterModule.forRoot(router);
+export const appRouter = RouterModule.forRoot(routers);

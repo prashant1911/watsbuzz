@@ -11,29 +11,23 @@
     grid-gap: 1em;
     grid-auto-rows: minmax(auto, auto);
   }
-  
+
   .wrapper > div {
     background: #eee;
     padding: 1em;
   }
-  
+
   .wrapper > div:nth-child(even){
     background: #ddd;
   }
-  
-  .image-style{
-    width: 50%;
-    background-size: cover;
-  
-  }
-  
+
   .title {
     font-weight: 600;
-  
+
   }
   .news-image {
-    height:100%;
-    width: 100%;
-    object-fit: contain;
+    max-height: 400px;
+    max-width: 400px;
+    padding-top: 20px;
+
   }
-  
