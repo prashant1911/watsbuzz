@@ -1,0 +1,39 @@
+.body {
+    background-color: rgb(252, 252, 252);
+
+  }
+
+  .wrapper{
+    display: grid;
+    grid-template-columns:3fr 3fr 3fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(auto, auto);
+  }
+  
+  .wrapper > div {
+    background: #eee;
+    padding: 1em;
+  }
+  
+  .wrapper > div:nth-child(even){
+    background: #ddd;
+  }
+  
+  .image-style{
+    width: 50%;
+    background-size: cover;
+  
+  }
+  
+  .title {
+    font-weight: 600;
+  
+  }
+  .news-image {
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
