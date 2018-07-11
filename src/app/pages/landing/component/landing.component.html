@@ -1,22 +1,25 @@
 <div class="body" style="text-align:center">
-  <h1>
+  <h1 class="display-4">
     Welcome to {{title}} !!
   </h1>
+  <hr class="style2">
   <div class="container fluid">
-    <div >
+    <div>
       <section *ngFor="let item of arr" class="row my-content">
 
-          <div class="col-sm-0 col-md-2 col-lg-1"></div>
-          <div class="col-sm-12 col-md-8 col-lg-10">
-            <span class="title">{{item.title}}</span>
-            <br>
-            <span style="text-align: center"> {{item.description}}</span>
-            <br>
-            <span> <img class="news-image img-fluid" src={{item.urlToImage}}></span>
-            <br>
-            <br>
-          </div>
-          <div class="col-sm-0 col-md-2 col-lg-1"></div>
+        <div class="col-sm-0 col-md-2 col-lg-1"></div>
+        <div class="col-sm-12 col-md-8 col-lg-10">
+          <span class="title">{{item.title}}</span>
+          <br>
+          <span style="text-align: center"> {{item.description}}</span>
+          <br>
+          <span>
+            <img class="rounded news-image img-fluid " src={{item.urlToImage}} alt="image" />
+          </span>
+          <br>
+          <br>
+        </div>
+        <div class="col-sm-0 col-md-2 col-lg-1"></div>
 
       </section>
     </div>

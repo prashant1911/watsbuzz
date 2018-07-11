@@ -5,12 +5,12 @@ import { NgModule } from '@angular/core';
 export const routers: Routes = [
   {
     path: '',
-    redirectTo: '/landing',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
 
   {
-    path: 'landing',
+    path: 'home',
     // component:HeaderFooterComponent,
     loadChildren: 'app/pages/landing/landing.module#LandingModule'
   }
