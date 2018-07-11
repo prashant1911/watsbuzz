@@ -1,4 +1,4 @@
-import { GlobalService } from '../../../shared/services/global.service';  
+import { GlobalService } from '../../../shared/services/global.service';
 import { Component, OnInit } from '@angular/core';
 import { IntervalObservable } from 'rxjs/observable/IntervalObservable';
 import 'rxjs/add/operator/takeWhile';

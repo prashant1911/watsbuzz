@@ -12,8 +12,21 @@
 
   }
   .news-image {
-    max-height: 600px;
-    max-width: 600px;
-    padding-top: 20px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
 
+  }
+
+  div > img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
   }
